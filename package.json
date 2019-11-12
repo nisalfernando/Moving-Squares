@@ -1,0 +1,29 @@
+{
+  "name": "moving-squares",
+  "version": "1.0.0",
+  "description": "Animating the squares",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisalfernando/Moving-Squares.git"
+  },
+  "author": "Nisal Fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisalfernando/Moving-Squares/issues"
+  },
+  "homepage": "https://github.com/nisalfernando/Moving-Squares#readme"
+}
