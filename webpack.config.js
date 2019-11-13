@@ -6,5 +6,12 @@ module.export = {
         path: path.resolve(__dirname, 'dist/js'),
         filename: 'bundle.js'
     },
+    module: {
+        rules: [
+            {
+                test: /* type of file */, use: /* th loader */
+            }
+        ]
+    },
     mode: 'development'
 };
