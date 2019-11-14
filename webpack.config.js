@@ -1,10 +1,11 @@
 const path = require('path');
 
 module.export = {
+    mode: 'development',
     entry: './src/js/index.js',
     output: {
         path: path.resolve(__dirname, 'dist/js'),
-        filename: 'bundle.js'
+        filename: 'square.bundle.js'
     },
     module: {
         rules: [
@@ -12,6 +13,5 @@ module.export = {
                 test: /\.js$/, use: 'babel-loader'
             }
         ]
-    },
-    mode: 'development'
+    }
 };
