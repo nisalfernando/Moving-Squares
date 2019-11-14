@@ -9,7 +9,7 @@ module.export = {
     module: {
         rules: [
             {
-                test: /* type of file */, use: /* th loader */
+                test: /\.js$/, use: { loader: 'babel-loader'}
             }
         ]
     },
