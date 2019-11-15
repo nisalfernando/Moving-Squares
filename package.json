@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Animating the squares",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
